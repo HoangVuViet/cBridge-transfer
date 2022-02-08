@@ -99,7 +99,9 @@
       "react-app/jest",
       "prettier"
     ],
-    "ignorePatterns": ["**/*_pb.js"]
+    "ignorePatterns": [
+      "**/*_pb.js"
+    ]
   },
   "scripts": {
     "build": "dotenv -e .env.test craco build",
